@@ -68,28 +68,32 @@
       <section id="manifesto" class="panel">
         <div>
           <p class="eyebrow">Manifesto</p>
-          <h2>Brutal simplicity with a production-first mindset</h2>
+          <h2>System architecture, production first</h2>
           <p>
-            I declare assumptions early, fail fast, and optimize for clear operations.
-            Every project ships with explicit ADRs, diagrams, and reasons why alternatives were rejected.
+            Clear domains, contracts, and boundaries from the start; flows and failure modes defined before writing code.
+            Fewer moving parts, observable components, and operations built for on-call reality.
           </p>
         </div>
         <div class="grid">
           <article class="card">
-            <p class="card-title">Operational simplicity</p>
-            <p>Less magic, more visibility. Structured logs, clear boundaries, explicit flow control.</p>
+            <p class="card-title">System architecture first</p>
+            <p>Domains, contracts, and seams defined early; clear flow and failure paths before coding.</p>
           </article>
           <article class="card">
-            <p class="card-title">Deliberate scale</p>
-            <p>Sharding, hashing, and queues as first-class pieces. Designed for spikes, not averages.</p>
+            <p class="card-title">Production first</p>
+            <p>Fewer moving parts, explicit limits, and “boring” observable components over fragile cleverness.</p>
           </article>
           <article class="card">
-            <p class="card-title">Practical resilience</p>
-            <p>Backpressure, timeouts, and graceful degradation before heroic fixes.</p>
+            <p class="card-title">Operate with one button</p>
+            <p>Turn each manual edge/gateway step into guided automation with guardrails and repeatability.</p>
           </article>
           <article class="card">
-            <p class="card-title">Living docs</p>
-            <p>Concise ADRs, current diagrams, and measurable trade-offs with every delivery.</p>
+            <p class="card-title">Visibility over guesswork</p>
+            <p>Logs, metrics, traces, and state views built for on-call decisions, not vanity dashboards.</p>
+          </article>
+          <article class="card">
+            <p class="card-title">Resilience in bad networks</p>
+            <p>Assume flakiness; design with retries, backpressure, queued work, and graceful degradation.</p>
           </article>
         </div>
       </section>
