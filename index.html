@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Benito's System Architecture Portfolio — pragmatic automation for IoT/edge, repeatable deployments, and resilient systems.">
+  <title>Benito | System Architecture Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page">
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-dot"></span>
+        <div>
+          <p class="my-name">Benito Avila</p>
+          <strong>Systems Architect · Senior Developer</strong>
+        </div>
+      </div>
+      <nav>
+        <a href="#manifesto">Manifesto</a>
+        <a href="#focus">Focus</a>
+        <a href="#workbench">Workbench</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-text">
+          <p class="eyebrow">System architecture · IoT/edge · Automation</p>
+          <h1>Systems architect & software engineer — R&D, IoT/edge</h1>
+          <p class="lede">
+            I build pragmatic architectures and automation so device deployments and operations stay repeatable, scalable, and measurable.
+            Tools, services, and guardrails that turn "manual steps" into "one-button" execution.
+          </p>
+          <div class="actions">
+            <a class="btn primary" href="#workbench">Explore portfolio</a>
+            <a class="btn ghost" href="#contact">Discuss a challenge</a>
+          </div>
+          <div class="tags">
+            <span>IoT/edge deployments</span>
+            <span>Provisioning automation</span>
+            <span>Ops tooling</span>
+            <span>Observability</span>
+            <span>Pragmatic microservices</span>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="status">
+            <span class="pulse"></span>
+            Build mode: interactive retro portfolio
+          </div>
+          <p class="mini-title">Upcoming demos</p>
+          <ul>
+            <li>Consistent hashing router (routerd)</li>
+            <li>Event-driven dispatcher</li>
+            <li>Distributed lock service</li>
+            <li>Live observability pipeline</li>
+          </ul>
+          <div class="signal">
+            <div class="signal-line"></div>
+            <small>Safe operations · Latency under control · Observable flow</small>
+          </div>
+        </div>
+      </section>
+
+      <section id="manifesto" class="panel">
+        <div>
+          <p class="eyebrow">Manifesto</p>
+          <h2>Brutal simplicity with a production-first mindset</h2>
+          <p>
+            I declare assumptions early, fail fast, and optimize for clear operations.
+            Every project ships with explicit ADRs, diagrams, and reasons why alternatives were rejected.
+          </p>
+        </div>
+        <div class="grid">
+          <article class="card">
+            <p class="card-title">Operational simplicity</p>
+            <p>Less magic, more visibility. Structured logs, clear boundaries, explicit flow control.</p>
+          </article>
+          <article class="card">
+            <p class="card-title">Deliberate scale</p>
+            <p>Sharding, hashing, and queues as first-class pieces. Designed for spikes, not averages.</p>
+          </article>
+          <article class="card">
+            <p class="card-title">Practical resilience</p>
+            <p>Backpressure, timeouts, and graceful degradation before heroic fixes.</p>
+          </article>
+          <article class="card">
+            <p class="card-title">Living docs</p>
+            <p>Concise ADRs, current diagrams, and measurable trade-offs with every delivery.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="focus" class="panel">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Focus</p>
+            <h2>Where I create impact fast</h2>
+          </div>
+          <div class="pill">Repeatable deploys · Reliable ops · Measurable outcomes</div>
+        </div>
+        <div class="grid narrow">
+          <article class="card outline">
+            <p class="card-title">Provisioning & deployment automation</p>
+            <p>From manual steps to one-button bootstrap on edge/gateways: initial config, credentials delivery, reproducible startup.</p>
+          </article>
+          <article class="card outline">
+            <p class="card-title">Orchestration & internal tools</p>
+            <p>CLIs/GUI/web tooling to accelerate teams: guided flows, validations, traceability, fewer human errors.</p>
+          </article>
+          <article class="card outline">
+            <p class="card-title">Pragmatic microservices (Python + Go)</p>
+            <p>Simple, operable designs: separation of responsibilities, monitoring services, decoupled APIs and components.</p>
+          </article>
+          <article class="card outline">
+            <p class="card-title">Observability & real-time ops</p>
+            <p>Fleet logs, state and monitoring: gateway visibility, failure detection, and fast diagnosis.</p>
+          </article>
+          <article class="card outline">
+            <p class="card-title">Edge infra automation</p>
+            <p>Ansible, Docker and Linux for reproducible provisioning, compose deploys, services, and field-oriented hardening.</p>
+          </article>
+          <article class="card outline">
+            <p class="card-title">IoT integration</p>
+            <p>Sensors, MQTT, gateways, and tough networks: latency, flaky links, queues, constrained devices with robust behavior.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="workbench" class="panel">
+        <div class="panel-header">
+          <div>
+            <p class="eyebrow">Workbench</p>
+            <h2>Build in progress — demos and docs incoming</h2>
+          </div>
+          <p class="hint">Each module ships with ADRs, diagrams, and a sandbox to explore choices.</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div>
+              <p class="card-title">go-sharding-basic</p>
+              <p>Example system in Go that implements basic sharding using hash(username) % N to distribute users across multiple PostgreSQL shards.</p>
+              <p><a href="https://github.com/Nehonar/go-sharding-basic" target="_blank" rel="noreferrer">Repo</a> · Includes C4 level 1/2 diagrams and an ADR for the sharding approach.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div>
+              <p class="card-title">Consistent Hashing Router (routerd)</p>
+              <p>Under construction. Minimal data movement, elastic rings, controlled rebalances.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div>
+              <p class="card-title">Upcoming</p>
+              <p>Event-driven dispatcher, distributed locks, observability pipeline, and more.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="panel contact">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Have an architecture challenge?</h2>
+          <p>Send context on load, limits, and risks. We can iterate fast with prototypes and concise ADRs.</p>
+          <div class="actions">
+            <a class="btn primary" href="mailto:benito.avar@gmail.com">Email Benito</a>
+            <a class="btn ghost" href="#home">Back to top</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
